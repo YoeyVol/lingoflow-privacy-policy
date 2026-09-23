@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>译流 LingoFlow 隐私说明</title>
+  <style>body{max-width:760px;margin:48px auto;padding:0 22px;color:#25234b;font:16px/1.7 system-ui,-apple-system,"Segoe UI","Microsoft YaHei",sans-serif}h1,h2{line-height:1.25}a{color:#5c4bd5}.notice{padding:14px 16px;border-radius:12px;background:#f2f0ff;color:#514b78}</style>
+</head>
+<body>
+  <h1>译流 LingoFlow 隐私说明</h1>
+  <p>生效日期：2026 年 9 月 23 日</p>
+  <p>译流是一款在网页输入框附近提供即时翻译的浏览器扩展。本说明介绍扩展如何处理文字、设置和翻译服务凭据。</p>
+  <h2>网页文字</h2>
+  <p>当你在受支持的网页输入框中输入文字时，译流会读取当前获得焦点的输入框内容，以提供翻译。内容会发送给设置中当前选用的翻译服务：默认是 MyMemory；你也可以选择 Google Cloud Translation、Microsoft Azure AI Translator，或自己配置的 HTTPS LibreTranslate 兼容接口。译流不会自行选择页面中的其他内容，也不会建立浏览记录或用户画像。</p>
+  <p>停止输入约 800 毫秒后，扩展会请求译文。发送到外部服务的文本由相应服务按其自身条款和隐私政策处理；请勿使用公共服务翻译机密或敏感内容。对于自定义接口，接收方由你配置。</p>
+  <h2>设置与凭据</h2>
+  <p>目标语言、快捷键、操作条位置和服务设置保存在浏览器本机的扩展存储中。Google、Azure 和自定义服务的 API 密钥仅保存在本机扩展存储中；当你使用对应服务时，密钥会随翻译请求发送到该服务。译流开发者不会收到这些设置或密钥。</p>
+  <h2>收集、日志与广告</h2>
+  <p>译流开发者不运营自己的翻译服务器，不接收翻译文本，不记录浏览历史，不运行广告或分析追踪。翻译服务提供商可能按各自政策处理请求和日志。</p>
+  <h2>你的选择</h2>
+  <p>你可以在扩展设置中更换服务、清除密钥或停止使用扩展。使用公共翻译服务前，请确认你愿意将输入文本发送给所选服务。</p>
+  <h2>联系开发者</h2>
+  <p class="notice">支持与隐私问题：<a href="https://github.com/YoeyVol/lingoflow-privacy-policy/issues">通过 GitHub Issues 联系开发者</a>。</p>
+  <hr>
+  <h2>English summary</h2>
+  <p>LingoFlow reads text from the focused web input to provide a translation after typing pauses. It sends that text to the provider selected in the extension: MyMemory by default, Google Cloud Translation, Microsoft Azure AI Translator, or a custom HTTPS LibreTranslate-compatible endpoint. The selected provider processes the text under its own terms and privacy policy. The developer does not receive translation text, browsing history, settings, or API keys, and the extension does not run ads or analytics. Settings and provider keys are stored in local extension storage; a provider key is sent to that provider when its translation service is used.</p>
+  <p>Support and privacy requests: <a href="https://github.com/YoeyVol/lingoflow-privacy-policy/issues">contact the developer through GitHub Issues</a>.</p>
+</body>
+</html>
